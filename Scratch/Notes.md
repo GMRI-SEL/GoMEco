@@ -1,0 +1,1 @@
+To make working a bit easier, start your own scratch folder with your first and last initials. Then, feel free to save R scripts and temp results within your personal scratch folder. These can then be easily incorporated into the original repo and should help prevent against any code/version control issues.
