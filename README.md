@@ -2,7 +2,7 @@
 A Integrated Systems Ecology Lab project looking into changes in the structure and function of the Gulf of Maine ecosystem, with particular focus on apex predators and key forage species.
 
 # Project structure
-This collaborative lab project uses both GitHub and Box to facilitate sharing data and code. First, to get set up:
+This collaborative lab project uses both GitHub and Box to facilitate sharing data and code. 
 
 ## GitHub bits
 1. Go to https://github.com/GMRI-SEL/GoMEco and fork the repository to your account.
@@ -15,7 +15,7 @@ This collaborative lab project uses both GitHub and Box to facilitate sharing da
 4. Alright, I think you now should be good to go. You can work locally, push to your forked copy of the lab project repo and then submit a pull request so that your changes can be incorporated into the original lab project repo. Similarly, you can pull from upstream to make sure that you have any changes made on the original lab project repo.
 
 ## Box and code structure bits
-Now that you've got everything set up, I would suggest that at the beginning of everyone's code they source the lab function that loads paths to GMRI folders:
+Now that you've got everything set up, I would suggest that at the beginning of everyone's code they source the lab function that loads the paths to GMRI folders:
 
 `source("https://raw.githubusercontent.com/GMRI-SEL/LabFunctionsandCode/master/GenerateSharedPathsScript.R")`
 
