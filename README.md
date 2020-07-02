@@ -21,6 +21,6 @@ Now that you've got everything set up, I would suggest that at the beginning of 
 
 In particular, this should make it really easy to access data for this project, which will be kept on Box at `Box/Mills Lab/Projects/GoMEco/Data/`. For example, to load in the population estimates, you would do something like:
 
-`pop.dat <- read.csv(paste(proj.path, "Data/GoMSeabirdData - GoMSeabirdPopEstimates.csv"), sep = "")`
+`pop.dat <- read.csv(paste(proj.path, "Data/GoMSeabirdData - GoMSeabirdPopEstimates.csv", sep = ""))`
 
 Still working on the best way to do this, but for now, I think this will work. When you source the function, it will load: res.data.path, res.func.path, lab.data.path, lab.func.path and proj.path.
